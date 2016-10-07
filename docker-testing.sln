@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFFDB995-ECCB-4BE7-BA4C-963E82ADCECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C6014E1-9A86-4D0B-A62B-09279E76EAE9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "webFullFramework", "src\webFullFramework\webFullFramework.xproj", "{1F84C9E2-9806-4AF3-897F-F12B64843F98}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleFullFramework", "src\ConsoleFullFramework\ConsoleFullFramework.xproj", "{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F84C9E2-9806-4AF3-897F-F12B64843F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F84C9E2-9806-4AF3-897F-F12B64843F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F84C9E2-9806-4AF3-897F-F12B64843F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F84C9E2-9806-4AF3-897F-F12B64843F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F84C9E2-9806-4AF3-897F-F12B64843F98} = {CFFDB995-ECCB-4BE7-BA4C-963E82ADCECC}
+		{A2A07770-8053-4EBF-8FEF-C6F8F6FF9034} = {CFFDB995-ECCB-4BE7-BA4C-963E82ADCECC}
+	EndGlobalSection
+EndGlobal
