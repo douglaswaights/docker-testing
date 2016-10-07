@@ -120,6 +120,6 @@ In my mind the Dockerfile and setup should allow this to work for the full frame
 Is this a bug or expected to work?
 Is this me not understanding something?
 
-Glen pointed out that i could be missing ANCM (which im thinking is the server hosting bundle we install that gives us aspnetcore iis module) but i'm not even to the point of hosting in IIS and therefore dont see why this is needed for a simple dotnet run of a console app...
+Glenn pointed out that i could be missing ANCM (which im thinking is the server hosting bundle we install that gives us aspnetcore iis module) but i'm not even to the point of hosting in IIS and therefore dont see why this is needed for a simple dotnet run of a console app...
 
 Any help would be appreciated? :-)
