@@ -1,6 +1,6 @@
 # docker-testing Windows server Core 2016
 
-The initial idea is to get A Docker windowsservercore container running that can be a build environment initially. Trying to test that dotnet restore, dotnet run etc can work inside the container (using a mounted volume for source code). This has to be on the full framework either net451 or 461.
+The initial idea is to get a Docker windowsservercore container running that can be a build environment for some exploratory Docker testing. Trying to test that dotnet restore, dotnet run etc can work inside the container (using a mounted volume for source code). This has to be on the full framework either net451 or 461.
 
 Later i will work on deployment image(s) for the app.
 
@@ -10,7 +10,7 @@ Can see the potential of Docker for lots of stuff
 3. Onboarding new devs
 4. Deployment
 
-I've already had problems trying to get "net use" to work within the running windows server core container (seems ok on nano server tests) but thats another story.
+I've already had problems trying to get "net use" to work within the running windows server core container (seems ok on nano server tests but fails on servercore) but thats another story.
 
 # some context
 We currently have a LOB app that runs on the full framework on ASP.NET Core 1.0.1. Part of this app is a SPA web front end with web api on kestrel behind iis and there is another component running on the full framework (project.json style again) that is installed as a windows service...processing background jobs that operate on network data. The background and distributed processing of jobs is using hangfire. We have a SQL Server db in the mix too. Currently these are installed on Windows Server 2012R2 using a zip file and then doing the extraction of the different components and installation of them with PowerShell. So ultimate idea is to see if we can containerise the application allowing for flexible hybrid deployment scenarios microservices etc...
