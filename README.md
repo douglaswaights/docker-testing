@@ -1,5 +1,7 @@
 #UPDATE - fixed!
 I needed to install the full framework sdk dev pack inside the container... kind of obvious really...oh well
+something like
+NDP461-DevPack-KB3105179-ENU.exe /q
 
 # docker-testing Windows server Core 2016
 
