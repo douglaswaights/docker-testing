@@ -1,3 +1,6 @@
+#UPDATE - fixed!
+I needed to install the full framework sdk dev pack inside the container... kind of obvious really...oh well
+
 # docker-testing Windows server Core 2016
 
 The initial idea is to get a Docker windowsservercore container running that can be a build environment for some exploratory Docker testing. Trying to test that dotnet restore, dotnet run etc can work inside the container (using a mounted volume for source code). This has to be on the full framework either net451 or 461.
